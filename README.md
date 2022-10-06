@@ -41,7 +41,7 @@ Each article contains a list of monthly datapoints containing:
 
 ## Data limitations and special considerations
 
-Not all articles have full data, some contain nulls in many of months. 
+Not all articles have full data, some contain nulls in multiple months. 
 
 The API outoputs in JSON format, will have to use functions to transform to any other desired data format.
 
