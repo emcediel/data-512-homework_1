@@ -21,7 +21,7 @@ By using this API, you agree to Wikimedia's Terms of Use and Privacy Policy. Unl
 1. View data was retrieved fully from the REST API
 2. The names of the dinosaur articles were obtained through the 'dinosaur_genera.cleaned.SEPT.2022 - dinosaur_genera.cleaned.SEPT.2022..csv' csv file 
 
-## Intermediary files
+### Intermediary files
 
 Three JSON files were created, each contains article traffic information for a specific type of access (mobile, desktop, monthly cumulative)
 The key for the JSON file is the name of the article (dinosaur)
@@ -32,7 +32,7 @@ Each article contains a list of monthly datapoints containing:
     d. timestamp: The monthly date of the data
     e. agent: If you want to filter by agent type.
 
-## Output files
+### Output files
 
 3 graphs were created:
 1. Maximum Average and Minimum Average - The first graph should contain time series for the articles that have the highest average page requests and the lowest average page requests for desktop access and mobile access. 
